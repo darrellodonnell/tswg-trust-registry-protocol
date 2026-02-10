@@ -1,6 +1,6 @@
 ## Security Considerations
 
-_This section is informative._
+*This section is informative.*
 
 All implementers (“bindings [[ref:TRQP binding]]” and “bridges [[ref:TRQP bridge]]”) of TRQP should take the following threats into account and implement appropriate controls:
 
@@ -20,7 +20,7 @@ All implementers (“bindings [[ref:TRQP binding]]” and “bridges [[ref:TRQP 
 
 ## Privacy Considerations
 
-_This section is informative._
+*This section is informative.*
 
 Implementers must design the system so that the handling of authorizations and identity information minimizes the risk of exposing sensitive details. In addition to data minimization and regulatory compliance, pay special attention to the following:
 
@@ -33,7 +33,7 @@ Implementers must design the system so that the handling of authorizations and i
 
 ## Implementation Considerations
 
-_This section is informative._
+*This section is informative.*
 
 Implementing TRQP across multiple digital trust ecosystem involves two categories of considerations:
 

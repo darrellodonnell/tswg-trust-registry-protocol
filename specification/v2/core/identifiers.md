@@ -56,7 +56,7 @@ To encourage cross-ecosystem interoperability, in a future version of this speci
 
 ### `context` 
 
-Because `authority_id` is the required context for all TRQP [[ref: authority statements]], a `context` object is OPTIONAL in a [[ref: TRQP query]]. If a `context` object is included, it MUST conform to the requirements in this section.
+Because `authority_id` is the required context for all TRQP [[ref: authority statements]], a `context` object is OPTIONAL in a query. If a `context` object is included, it MUST conform to the requirements in this section.
 
 1. A `context` object MUST be a JSON object whose members convey other query conditions.   
 2. If a `context` object needs to express a time-based condition:  
