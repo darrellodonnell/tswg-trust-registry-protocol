@@ -70,10 +70,10 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 ~ A repository that serves as a source for [[ref:authority statements]] or other governed information describing one or more trust communities. A trust registry is typically authorized by an [[ref:ecosystem governance framework]].
 
  [[def:trust registry operator]]
-~ The legal entity responsible for operating a [[ref:trust registry]]. A trust registry may be operated directly by an [ref:ecosystem governing authority]], or operation may be delegated to an independent trust registry operator.
+~ The legal entity responsible for operating a [[ref:trust registry]]. A trust registry may be operated directly by an [[ref:ecosystem governing authority]], or operation may be delegated to an independent trust registry operator.
 
  [[def:system of record, systems of record]]
-~ An authoritative source for the authority statements available from a [ref:trust registry]].
+~ An authoritative source for the authority statements available from a [[ref:trust registry]].
 
 ## Scope
 _This section is informative._
@@ -87,6 +87,6 @@ Figure 1 illustrates the four primary components involved with TRQP architecture
 The scope of this specification is limited to the TRQP protocol operating between TRQP consumers and TRQP endpoints representing addressable TRQP trust registries. The following are out-of-scope:
 
 * **Systems of record**. This specification casts no requirements on how the system of record is designed or deployed. Also, because TRQP is read-only, this specification does not address create, update, or delete operations for the system of record.
-* **TRQP bridges**. If the system of record is not a native TRQP trust registry, a TRQP bridge is needed to transform a TRQP query into the query format supported by the system of record. Seperate specifications may be published for popular TRQP bridges, however they are out-of-scope for this specification.
-* **Implmentation Code**. TRQP defines the protocol; it does not provide the code for implementation.
+* **TRQP bridges**. If the system of record is not a native TRQP trust registry, a TRQP bridge is needed to transform a TRQP query into the query format supported by the system of record. Separate specifications may be published for popular TRQP bridges, however they are out-of-scope for this specification.
+* **Implementation Code**. TRQP defines the protocol; it does not provide the code for implementation.
 
