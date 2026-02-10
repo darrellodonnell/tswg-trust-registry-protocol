@@ -14,7 +14,7 @@ Nation states, companies, NGOs, universities, churches, associations, social net
 
 An authority statement is a machine-readable representation of a policy governing an entity within the authority’s scope of authority. Trust registries serve as a mechanism for making authority statements accessible to parties who need to make trust decisions regarding those entities.
 
-TRQP supports two basic types of authority statements;
+TRQP supports two basic types of authority statements:
 
 #### Authorization Authority Statements
 

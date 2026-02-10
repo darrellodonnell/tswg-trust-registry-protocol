@@ -23,7 +23,7 @@
     },
     "resource": {
       "type": "string",
-      "description": "The resource that the query is is checking Recognition for."
+      "description": "The resource that the query is checking Recognition for."
     },
     "context": {
       "type": "object",

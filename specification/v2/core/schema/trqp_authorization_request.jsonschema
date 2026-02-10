@@ -15,7 +15,7 @@
     },
     "authority_id": {
       "type": "string",
-      "description": "The identifier for the authority (e.g. ecosystem governning authority) that is being queried."
+      "description": "The identifier for the authority (e.g. ecosystem governing authority) that is being queried."
     },
     "action": {
       "type": "string",
@@ -23,7 +23,7 @@
     },
     "resource": {
       "type": "string",
-      "description": "The resource that the query is is checking Authorization for."
+      "description": "The resource that the query is checking Authorization for."
     },
     "context": {
       "type": "object",
