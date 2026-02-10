@@ -29,17 +29,17 @@
     },
     "recognized": {
       "type": "boolean",
-      "description": "True if the action+resource has been verified, false otherwise."
+      "description": "True if the action+resource has been recognized, false otherwise."
     },
     "time_requested": {
       "type": "string",
       "format": "date-time",
-      "description": "the server time that was used in the query."
+      "description": "the server time that was requested (may be blank), as provided in the `time` object. This value means that the response applies at the moment in time that was requested."
     },
     "time_evaluated": {
       "type": "string",
       "format": "date-time",
-      "description": "the server time that was used in the query."
+      "description": "the server time that the query was executed at on the endpoint service, per the endpoint time."
     },
     "message": {
       "type": "string",
