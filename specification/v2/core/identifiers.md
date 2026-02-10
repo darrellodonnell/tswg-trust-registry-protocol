@@ -61,6 +61,6 @@ Because `authority_id` is the required context for all TRQP [[ref: authority sta
 1. A `context` object MUST be a JSON object whose members convey other query conditions.   
 2. If a `context` object needs to express a time-based condition:  
    1. It MUST include a `time` parameter.
-   2. The value of this parameter MUST a time value expressed in [RFC 3339](https://trustoverip.github.io/tswg-trust-registry-protocol/%7B%7BRFC3339%7D%7D) format.  
+   2. The value of this parameter MUST be a time value expressed in [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339) format.  
    3. The value of the `time` parameter MUST be interpreted as the datetime as of which the target [[ref: authority statement]] is valid.  
 3. Additional JSON object members specifying other conditions MAY be defined by TRQP profiles or bindings.
