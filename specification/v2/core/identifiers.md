@@ -38,7 +38,7 @@ The TRQP information model is patterned after the [PARC model](https://docs.ceda
 2. It is NOT REQUIRED for the `action` identifier string to be globally unique.  
 3. The `action` identifier string SHOULD:  
    1. Be specified in the authority’s governance framework.  
-   2. Be machine-discoverable via a query to the authoritative trust registr(ies).
+   2. Be machine-discoverable via a query to the authoritative trust registries.
 
 ::: note
 
@@ -52,7 +52,7 @@ To encourage cross-ecosystem interoperability, in a future version of this speci
 2. It is NOT REQUIRED for the `resource` identifier string to be globally unique.  
 3. In addition, the requirements for `resource` identifiers SHOULD:  
    1. Be defined in the authority’s governance framework.  
-   2. Be machine-discoverable via a query to the authoritative trust registr(ies).
+   2. Be machine-discoverable via a query to the authoritative trust registries.
 
 ### `context` 
 

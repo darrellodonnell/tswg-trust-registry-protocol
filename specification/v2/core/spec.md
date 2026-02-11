@@ -52,10 +52,10 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 ~ A system that connects a [[ref:TRQP endpoint]] to a [[ref:system of record]]. The bridge transforms a TRQP query into the query format supported by the system of record and performs the reverse mapping for the response.
 
  [[def:TRQP consumer, TRQP consumers]]
-~ A network device (client or server) that send TRQP queries to a TRQP endpoint.
+~ A network device (client or server) that sends TRQP queries to a TRQP endpoint.
 
  [[def:TRQP endpoint, TRQP endpoints]]
-~ The network service endpoint for trust registry that speaks TRQP.
+~ The network service endpoint for a trust registry that speaks TRQP.
 
  [[def:trust registry]]
 ~ A repository that serves as a source for [[ref:authority statements]] or other governed information describing one or more trust communities. A trust registry is typically authorized by an [[ref:ecosystem governance framework]].
