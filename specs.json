@@ -11,6 +11,7 @@
                 "core/identifiers.md",
                 "core/api.md",
                 "core/https_binding.md",
+                "versioning.md",
                 "conformance.md",
                 "considerations.md",
                 "references.md"
