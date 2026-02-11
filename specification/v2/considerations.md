@@ -2,7 +2,7 @@
 
 *This section is informative.*
 
-All implementers (“bindings [[ref:TRQP binding]]” and “bridges [[ref:TRQP bridge]]”) of TRQP should take the following threats into account and implement appropriate controls:
+All implementers (“[[ref:TRQP binding]]” and “[[ref:TRQP bridge]]”) of TRQP should take the following threats into account and implement appropriate controls:
 
 - **Trust Anchor Hijacking**: Use strong cryptography and rotate keys regularly.
 - **Trust Registry Bugs**: Conduct code reviews, vulnerability scans, and robust QA.
@@ -35,7 +35,7 @@ Implementers must design the system so that the handling of authorizations and i
 
 *This section is informative.*
 
-Implementing TRQP across multiple digital trust ecosystem involves two categories of considerations:
+Implementing TRQP across multiple digital trust ecosystems involves two categories of considerations:
 
 1. Establishing secure bridging mechanisms between heterogeneous governance frameworks.
 2. Ensuring trust registries accurately represent the ecosystem model. 
