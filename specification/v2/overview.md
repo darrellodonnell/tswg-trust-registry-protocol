@@ -27,6 +27,8 @@ This specification is provided under the [Joint Development Foundation](https://
 - **Patent:** [Open Web Foundation Final Specification Agreement 1.0 (OWFa 1.0 — Patent Only)](PATENT_LICENSING.md), consistent with the W3C Patent Mode.
 - **Source Code:** [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
+THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any warranties (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, fitness for a particular purpose, or title, related to the materials. The entire risk as to implementing or otherwise using the materials is assumed by the implementer and user. IN NO EVENT WILL THE PARTIES BE LIABLE TO ANY OTHER PARTY FOR LOST PROFITS OR ANY FORM OF INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER FROM ANY CAUSES OF ACTION OF ANY KIND WITH RESPECT TO THIS DELIVERABLE OR ITS GOVERNING AGREEMENT, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, AND WHETHER OR NOT THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
 ### Change History
 
 **Public Review 02** — December 2025
