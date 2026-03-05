@@ -1,3 +1,5 @@
+[extracted from source 2026.03.05](https://docs.google.com/document/d/1Flg39S4grM9xWfqXjHILdn_Y_cUg5x_EgUftQbIwySc/edit?usp=sharing)
+
 # Review Committee Checklist {#review-committee-checklist}
 
 This MUST be submitted with the [Review Committee Report](#review-committee-report) and SHOULD use [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf2lfZ9aLCOtA5U4LhiMiTX0IFJk2sdX-1fHwpCE_w7jxs52Q/viewform). One Review Committee Checklist MUST be completed for each deliverable.
