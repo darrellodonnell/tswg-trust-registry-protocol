@@ -1,7 +1,6 @@
 
 ## SpecUp Generated Output
-This repository uses SpecUp to create a rendered specification document (/dist/index.h
-tml). 
+This repository uses SpecUp to create a rendered specification document (/dist/index.html). 
 
 The contents are managed in specs.json and use markdown files (ordered in specs.json).
 
