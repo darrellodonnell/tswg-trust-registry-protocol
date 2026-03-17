@@ -20,8 +20,8 @@ This deliverable has completed two Public Review periods (PR 01: April–May 202
 
 <!-- REQUIRED: Link(s) to the WG Approved Deliverables for review. -->
 
-- **Rendered (HTML):** <!-- e.g. https://trustoverip.github.io/tswg-trust-registry-protocol/ -->
-- **Source (Markdown):** <!-- e.g. https://github.com/trustoverip/tswg-trust-registry-protocol -->
+- **Rendered (HTML):** <https://trustoverip.github.io/tswg-trust-registry-protocol/>
+- **Source (SpecUp):** <https://github.com/trustoverip/tswg-trust-registry-protocol>
 
 ---
 
@@ -40,7 +40,47 @@ This deliverable has completed two Public Review periods (PR 01: April–May 202
 
 <!-- REQUIRED if applicable: Summary of major changes since the previous version. -->
 
-TODO
+The following summarizes the major changes from TRQP v1 to TRQP v2.0:
+
+### Information Model: Adoption of PARC
+
+- **v1** used `egf_id` (Ecosystem Governance Framework), `entity_id`, and `authorization_id` as the core query parameters, with `ecosystem_id` for recognition queries.
+- **v2** adopts the **PARC (Principal, Action, Resource, Context)** information model, replacing the v1 parameters with `authority_id`, `entity_id`, `action`, `resource`, and an optional `context` object. This provides a more expressive and composable query structure aligned with established authorization models (e.g. Cedar Policy).
+
+### API Architecture: RESTful Binding to HTTPS Binding
+
+- **v1** defined a RESTful API using **GET requests with path and query parameters** (e.g. `/entities/{entity_id}/authorization?authorization_id=...&egf_id=...`).
+- **v2** defines an HTTPS binding using **POST requests with JSON bodies**, providing a cleaner separation between the abstract protocol and its transport binding. All query parameters are expressed in the JSON request body rather than URL path/query segments.
+
+### Query Types Refined; Listing Removed
+
+- **v1** had three endpoints: `/metadata`, `/entities/{entity_id}/authorization`, and `/registries/{ecosystem_id}/recognition`. v1 also supported listing operations — the authorization endpoint could return a list of all authorizations for an entity (via the `all=true` parameter), and the metadata endpoint provided enumeration of ecosystems and their controllers.
+- **v2** consolidates to two normative query types: **Authorization** (`/authorization`) and **Recognition** (`/recognition`), focused strictly on the core function of answering yes/no trust queries. All listing and enumeration capabilities have been removed to keep the protocol minimal and purpose-driven. The `/metadata` endpoint has been removed from the normative specification. Delegation queries are deferred to a future version.
+
+### Response Model Simplified and Standardized
+
+- **v1** responses included fields like `recognized`, `authorized`, `message`, `evaluated_at`, `response_time`, `expiry_time`, `egf_id`, and an optional `jws` (signed response per RFC 7515).
+- **v2** responses echo back the query parameters (`entity_id`, `authority_id`, `action`, `resource`) alongside the result (`authorized` or `recognized`), `time_requested`, `time_evaluated`, and `message`. The `jws` field and `expiry_time` have been removed from the core specification (signed responses deferred to profiles). The `egf_id` field is replaced by `authority_id`.
+
+### Error Handling Standardized
+
+- **v1** used RFC 7807 Problem Details but also defined custom TRQP status codes (e.g. TRQP-200 with multiple meanings).
+- **v2** removes all custom TRQP status codes in favor of **standard HTTP status codes** (400, 401, 404, 500) with RFC 7807 Problem Details bodies, eliminating the ambiguity in v1's overloaded status codes.
+
+### Specification Structure: Modular Organization
+
+- **v1** was a monolithic OpenAPI (Swagger) specification.
+- **v2** is a modular SpecUp-based specification organized into discrete sections: Overview, Definitions, High-Level Architecture, Identifiers, API Schemas, HTTPS Binding, Versioning, Conformance, Considerations, and References. Formal JSON schemas are defined for all request/response messages.
+
+### Identifier Requirements Formalized
+
+- **v1** used string identifiers without formal requirements beyond being unique.
+- **v2** requires all identifiers to conform to **RFC 3986** (URIs) and recommends the use of verifiable identifiers (DIDs, KERI AIDs, or HTTPS URLs). Multi-anchoring via the High Assurance DIDs with DNS specification is recommended for additional assurance.
+
+### Conformance Criteria Added
+
+- **v1** had no formal conformance section.
+- **v2** defines explicit conformance targets: **TRQP Endpoint**, **TRQP Consumer**, and **HTTPS Binding** conformance, with testable requirements for each.
 
 ## 2. Public Review Feedback Report
 
@@ -125,7 +165,8 @@ All issues from both Public Review periods have been closed. The substantial cha
 
 <!-- REQUIRED: A recommended committee consists of at least three members — a Steering Committee member (chair), someone closely involved with the work, and someone not directly involved but may have passing familiarity. Include any proposed external experts. -->
 
-Eric Drury (Review Committee Chair, SC Member), Drummond Reed (SC Member, TSWG Co-Chair), Tim Bouma (external, passing familiary, standards expert), and Darrell O'Donnell (TRTF Chair)
+CHAIR: Eric Drury (SC Member)
+MEMBERS: Drummond Reed (SC Member, TSWG Co-Chair), Tim Bouma (external, passing familiary, standards expert), and Darrell O'Donnell (TRTF Chair)
 
 
 | Name | Proposed Role | Affiliation | Involvement Level | Expertise Area |
