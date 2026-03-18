@@ -31,6 +31,7 @@ Content-Type: application/json
   }
 }
 ```
+[source: trqp_authorization_request.schema.json](./schema/trqp_authorization_request.schema.json) 
 
 ### Authorization Response Schema
 
@@ -55,6 +56,7 @@ Content-Type: application/json
   "message":      "did:user-1234 is authorized for issue+country:state:driverlicense (action+resource) by auth-service-A."
 }
 ``` 
+[source: trqp_authorization_response.schema.json](./schema/trqp_authorization_response.schema.json) 
 
 ## Recognition Query and Response Schemas
  
@@ -86,6 +88,7 @@ Content-Type: application/json
   }
 }
 ```
+[source: trqp_recognition_request.schema.json](./schema/trqp_recognition_request.schema.json) 
 
 ### Recognition Response
 
@@ -110,3 +113,4 @@ Content-Type: application/json
   "message":      "Service-42 is recognized by did:example."
 }
 ```
+[source: trqp_recognition_response.schema.json](./schema/trqp_recognition_response.schema.json) 
