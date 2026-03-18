@@ -11,8 +11,13 @@ This section defines the requirements for making TRQP authorization and recognit
 All HTTPS calls **MUST** include:
 
 * `Content-Type: application/json`
-* `Authorization: Bearer <token>` *(as required by the service)*
 * Optional tracing header: `X-Request-ID: <uuid>`
+
+::: note
+Authentication requirements for TRQP endpoints are deployment-specific and determined
+by the trust registry operator's policy. This specification does not mandate a specific
+authentication mechanism. See the Implementation Considerations section for guidance.
+:::
 
 ---
 
