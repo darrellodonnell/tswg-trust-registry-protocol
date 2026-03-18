@@ -43,6 +43,14 @@ A formal conformance test suite for TRQP v2.0 does not yet exist. The specificat
 
 Contributions toward a test suite are welcome. If you are interested in contributing, please [start a discussion](https://github.com/trustoverip/tswg-trust-registry-protocol/discussions) or [file an issue](https://github.com/trustoverip/tswg-trust-registry-protocol/issues).
 
+## Action Vocabulary
+
+The `action` field in TRQP queries is an open string defined by each authority in its governance framework. There is currently no standardized vocabulary of common `action` strings across ecosystems.
+
+A vocabulary of common `action` strings may be explored by the ToIP Trust Registry Task Force in a future version of this specification or as a companion specification. In the interim, implementers are encouraged to define their `action` strings explicitly in their governance framework and share them with the community to facilitate cross-ecosystem interoperability.
+
+If you are interested in contributing to this effort, please [start a discussion](https://github.com/trustoverip/tswg-trust-registry-protocol/discussions) or [file an issue](https://github.com/trustoverip/tswg-trust-registry-protocol/issues).
+
 ## Future Version Considerations:
 
 The TRQP v2.0 specification is focused solely on Recognition and Authorization queries. Two key areas were under discussion but didn't reach a point of closure, so have not been included in the v2.0 specification:
