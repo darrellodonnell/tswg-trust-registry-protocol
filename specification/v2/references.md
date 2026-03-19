@@ -23,7 +23,7 @@
 ~ Sporny, M., Guy, A., Sabadello, M., and D. Reed, "Decentralized Identifiers (DIDs) v1.0", W3C Recommendation, July 2022. [https://www.w3.org/TR/did-core/](https://www.w3.org/TR/did-core/)
 
 **\[High-Assurance-DIDs-DNS]**
-~ Carter, J., "High Assurance DIDs with DNS", Internet-Draft draft-carter-high-assurance-dids-with-dns-03, IETF, 2024. [https://www.ietf.org/archive/id/draft-carter-high-assurance-dids-with-dns-03.html](https://www.ietf.org/archive/id/draft-carter-high-assurance-dids-with-dns-03.html)
+~ Carter, J. et al., "High Assurance DIDs with DNS", Internet-Draft draft-carter-high-assurance-dids-with-dns-03, IETF, 2024. Note: This document is an active Internet-Draft and has not yet been published as an RFC. Implementers should consult the IETF datatracker for the latest version. [https://www.ietf.org/archive/id/draft-carter-high-assurance-dids-with-dns-03.html](https://www.ietf.org/archive/id/draft-carter-high-assurance-dids-with-dns-03.html)
 
 **\[ToIP-Glossary]**
 ~ Trust Over IP Foundation, "ToIP Main Glossary". [https://glossary.trustoverip.org/](https://glossary.trustoverip.org/)

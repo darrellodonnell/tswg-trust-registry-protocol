@@ -50,3 +50,9 @@ A conformant implementation of the TRQP HTTPS Binding MUST additionally satisfy 
 3. Recognition queries MUST be sent as `POST /recognition` requests with a JSON body conforming to the recognition query schema.
 4. TRQP endpoints MUST return error responses using the [Problem Details for HTTP APIs](https://datatracker.ietf.org/doc/html/rfc7807) format with appropriate HTTP status codes.
 5. TRQP endpoints MUST return HTTP 200 for successful queries with a JSON body conforming to the appropriate response schema.
+
+### Test Suite
+
+A formal conformance test suite for TRQP v2.0 does not currently exist. The conformance targets and MUST-level requirements defined in this section are intended to serve as the normative basis for a future test suite.
+
+The Trust Registry Task Force has formally acknowledged this gap and intends to publish a test suite as a companion deliverable to this specification. Contributions toward a test suite are welcome via the [GitHub repository](https://github.com/trustoverip/tswg-trust-registry-protocol).

@@ -1,8 +1,9 @@
-**Trust Registry Query Protocol (TRQP) Specification**
+**ToIP Trust Registry Query Protocol (TRQP) v2.0**
 ==================
 
 - **Specification Version:** 2.0
-- **Document Status:** Public Review 02
+- **Document Status:** ToIP Approved
+- **ToIP Permalink:** [ToIP-Trust-Registry-Query-Protocol-TRQP-Specification-V2.0-2026-04-15](https://trustoverip.org/permalink/ToIP-Trust-Registry-Query-Protocol-TRQP-Specification-V2.0-2026-04-15.html) <!-- TODO: confirm final permalink with ToIP SC before publication -->
 
 **Participate:**
 
@@ -13,11 +14,7 @@
 - **Editors:** Darrell O'Donnell, Andor Kesselman, Drummond Reed
 - **Contributors:** Alex Tweeddale, Antti Kettunen, Christine Martin, Dave Poltorak, Eric Drury, Fabrice Rochette, Jacques Latour, Jesse Carter, Jeff Braswell, Jon Bauer, Makki Elfatih, Marcus Ubani, Markus Sabadello, Scott Perry, Sankarshan Mukhopadhyay, Subhasis Ojha, Tim Bouma
 
-::: note
-This specification has just completed Public Review 02 and is being dispositioned in the Trust Over IP (ToIP) [Trust Registry Task Force](https://wiki.trustoverip.org/display/HOME/Trust+Registry+Task+Force). 
-
 For a complete overview of the motivations and core concepts behind TRQP, please see the [TRQP Overview page](https://lf-toip.atlassian.net/wiki/spaces/HOME/pages/22996548/ToIP+Trust+Registry+Query+Protocol+TRQP+Specification+Overview).
-:::
 
 ### Intellectual Property Rights
 

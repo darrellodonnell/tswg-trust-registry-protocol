@@ -1,7 +1,7 @@
 {
     "specs": [
         {
-            "title": "ToIP Trust Query Registry Protocol Overview",
+            "title": "ToIP Trust Registry Query Protocol (TRQP) v2.0",
             "spec_directory": "./specification/v2",
             "output_path": "./dist",
             "markdown_paths": [

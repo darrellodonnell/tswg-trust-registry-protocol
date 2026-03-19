@@ -40,12 +40,6 @@ The TRQP information model is patterned after the [PARC model](https://docs.ceda
    1. Be specified in the authority’s governance framework.  
    2. Be machine-discoverable via a query to the authoritative trust registries.
 
-::: note
-
-To encourage cross-ecosystem interoperability, in a future version of this specification (or a companion specification), the ToIP Trust Registry Task Force intends to publish a vocabulary of common `action` strings.
-
-:::
-
 ### `resource`
 
 1. The identifier for a `resource` in an authority statement MUST be a non-empty string conformant to the requirements in this section.  
