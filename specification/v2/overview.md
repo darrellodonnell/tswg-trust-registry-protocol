@@ -2,7 +2,7 @@
 ==================
 
 - **Specification Version:** 2.0
-- **Document Status:** ToIP Accepted
+- **Document Status:** ToIP Approved Deliverable
 - **ToIP Permalink:** [ToIP-Trust-Registry-Query-Protocol-TRQP-Specification-V2.0-2026-04-15](https://trustoverip.org/permalink/ToIP-Trust-Registry-Query-Protocol-TRQP-Specification-V2.0-2026-04-15.html) <!-- TODO: confirm final permalink with ToIP SC before publication -->
 
 **Participate:**
