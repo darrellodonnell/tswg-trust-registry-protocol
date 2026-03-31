@@ -25,7 +25,7 @@ All implementers (“[[ref:TRQP binding]]” and “[[ref:TRQP bridge]]”) of T
 Implementers must design the system so that the handling of authorizations and identity information minimizes the risk of exposing sensitive details. In addition to data minimization and regulatory compliance, pay special attention to the following:
 
 - **Careful Handling of Authorizations & Identities**:  
-  - Ensure that authorization tokens and identity data (such as DIDs) do not leak more information than necessary.  
+  - Ensure that authorization tokens and identity data (such as DIDs) do not disclose more information than necessary.  
   - Avoid exposing internal structures or hierarchies that could be exploited by correlating queries or monitoring network traffic.
 - **Correlation Risk Mitigation**:  
   - Recognize that even though only authority and entity identifiers are transmitted in recognition queries, combining this data with network-level information (such as IP addresses) could lead to correlation attacks.  

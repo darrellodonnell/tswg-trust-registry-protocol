@@ -55,7 +55,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 ~ A network device (client or server) that sends TRQP queries to a TRQP endpoint.
 
  [[def:TRQP endpoint, TRQP endpoints]]
-~ The network service endpoint for a trust registry that speaks TRQP.
+~ The network service endpoint for a trust registry that implements TRQP.
 
  [[def:trust registry]]
 ~ A repository that serves as a source for [[ref:authority statements]] or other governed information describing one or more trust communities. A trust registry is typically authorized by an [[ref:ecosystem governance framework]].

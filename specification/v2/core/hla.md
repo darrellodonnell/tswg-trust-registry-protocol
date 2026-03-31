@@ -12,7 +12,7 @@ Nation states, companies, NGOs, universities, churches, associations, social net
 
 ### Authority Statements
 
-An authority statement is a machine-readable representation of a policy governing an entity within the authority’s scope of authority. Trust registries serve as a mechanism for making authority statements accessible to parties who need to make trust decisions regarding those entities.
+An authority statement is a machine-readable representation of a policy governing an entity's authorization within the authority’s scope of authority. Trust registries serve as a mechanism for making authority statements accessible to parties who need to make trust decisions regarding those entities.
 
 TRQP supports two basic types of authority statements:
 
@@ -28,7 +28,7 @@ action: issue
 resource: DriversLicense
 ```
 
-In English, this corresponds to the statement: "AAMVA indicates that the DMV is authorized to issue Drivers Licenses, according to the system it maintains on behalf of member states."
+In English, this corresponds to the statement: "AAMVA, acting as an administering body delegated by its member states (the governing bodies), authorizes a member's DMV to issue Driver's Licenses according to the governance framework maintained by AAMVA on behalf of those states."
 
 #### Recognition Authority Statements
 
@@ -49,7 +49,7 @@ action: issue
 resource: Passport
 ```
 
-In English, this corresponds to the statement: "France recognizes Germany for official German Government sources and issued credentials (e.g. passport issuance)."
+In English, this corresponds to the statement: "France recognizes the German Government for official German Government sources and issued credentials (e.g. passport issuance)."
 
 ### Governance Frameworks
 
