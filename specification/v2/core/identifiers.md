@@ -24,7 +24,7 @@ The TRQP information model is patterned after the [PARC model](https://docs.ceda
 3. It is RECOMMENDED that the TRQP service endpoint(s) for any authoritative trust registry be machine-discoverable via the `authority_id`. An example would be to publish either of the following in the DID document for the `authority_id`:   
    1. The authoritative TRQP service endpoint URL(s).  
    2. The DID(s) identifying authoritative trust registries. (In that case, the authoritative TRQP service endpoint URL(s) would be specified in the associated DID documents.)
-4. The `ecosystem governance framework` MUST be discoverable via the `authority_id`. This can be established in the DIDDocument (in the case the `authority_id` is a DID, or another mechanism.)
+4. The `ecosystem governance framework` MUST be discoverable via the `authority_id`. This can be established in the DID Document (in the case the `authority_id` is a DID, or another mechanism.)
 
 ### `entity_id`
 
