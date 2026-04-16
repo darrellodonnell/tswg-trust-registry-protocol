@@ -18,11 +18,20 @@ for DIR in $IMAGES_DIRS; do
     cp -r "$DIR"/* "$DEST_PATH"
 done
 
-mkdir -p dist/v2/bindings/restful/
+# Approved version (output: dist/)
+mkdir -p dist/v2-approved/bindings/restful/
 mkdir -p dist/schema
 mkdir -p dist/images
 
-# cp specification/v2/bindings/restful/swagger.yaml dist/v2/bindings/restful/swagger.yaml
-# cp specification/v2/bindings/restful/swagger.yaml dist/swagger.yaml
-cp -r specification/v2/images dist/
-cp -r specification/v2/core/schema schema/
+cp -r specification/v2-approved/images dist/
+cp -r specification/v2-approved/core/schema schema/
+
+# Draft version (output: dist/draft/)
+# Copy images so they resolve relative to the draft HTML
+mkdir -p dist/draft/v2/core/images
+mkdir -p dist/draft/v2/images
+mkdir -p dist/draft/images
+
+cp -r specification/v2/images/* dist/draft/images/
+cp -r specification/v2/images/* dist/draft/v2/images/
+cp -r specification/v2/core/images/* dist/draft/v2/core/images/
