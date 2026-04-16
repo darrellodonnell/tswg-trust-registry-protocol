@@ -6,7 +6,7 @@
 - **ToIP Permalink:** [ToIP-Trust-Registry-Query-Protocol-TRQP-Specification-V2.0-2026-04-15](https://trustoverip.org/permalink/ToIP-Trust-Registry-Query-Protocol-TRQP-Specification-V2.0-2026-04-15.html) <!-- TODO: confirm final permalink with ToIP SC before publication -->
 
 ::: note
-A [Working Draft](./draft/) of the next version of this specification is also available.
+A [Working Draft](../draft/) of the next version of this specification is also available.
 :::
 
 **Participate:**

@@ -18,16 +18,18 @@ for DIR in $IMAGES_DIRS; do
     cp -r "$DIR"/* "$DEST_PATH"
 done
 
-# Approved version (output: dist/)
-mkdir -p dist/v2-approved/bindings/restful/
-mkdir -p dist/schema
-mkdir -p dist/images
+# Approved version (output: dist/approved/)
+mkdir -p dist/approved/v2-approved/core/images
+mkdir -p dist/approved/v2-approved/images
+mkdir -p dist/approved/images
+mkdir -p dist/approved/schema
 
-cp -r specification/v2-approved/images dist/
-cp -r specification/v2-approved/core/schema schema/
+cp -r specification/v2-approved/images/* dist/approved/images/
+cp -r specification/v2-approved/images/* dist/approved/v2-approved/images/
+cp -r specification/v2-approved/core/images/* dist/approved/v2-approved/core/images/
+cp -r specification/v2-approved/core/schema dist/approved/schema/
 
 # Draft version (output: dist/draft/)
-# Copy images so they resolve relative to the draft HTML
 mkdir -p dist/draft/v2/core/images
 mkdir -p dist/draft/v2/images
 mkdir -p dist/draft/images
