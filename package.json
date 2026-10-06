@@ -31,12 +31,12 @@
     "axios": "^1.6.3",
     "find-pkg-dir": "2.0.0",
     "fs-extra": "8.1.0",
-    "gulp": "^3.9.1",
+    "gulp": "^5.0.1",
     "gulp-clean-css": "4.3.0",
     "gulp-concat": "2.6.1",
     "gulp-terser": "1.2.0",
     "katex": "^0.16.21",
-    "markdown-it": "13.0.1",
+    "markdown-it": "^15.0.2",
     "markdown-it-anchor": "5.2.5",
     "markdown-it-attrs": "4.1.4",
     "markdown-it-chart": "^0.2.0",
@@ -57,13 +57,11 @@
     "merge-stream": "2.0.0",
     "pkg-dir": "4.2.0",
     "prismjs": ">=1.24.0",
-    "spec-up": "^0.10.8",
+    "spec-up": "^0.12.2",
     "yargs": "16.2.0"
   },
   "overrides": {
     "graceful-fs": "^4.2.11"
   },
-  "resolutions": {
-    "graceful-fs": "^4.2.11"
-  }
+  "packageManager": "npm@10.9.8"
 }

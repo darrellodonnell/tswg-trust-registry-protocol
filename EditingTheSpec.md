@@ -22,9 +22,10 @@ Full guidance for using Spec-Up is in its
 version of the instructions to render this specification locally while you are
 editing is:
 
-- Install the prerequisites: `node` and `npm`
-- Run `npm install` from the root of the repository
-- Run `npm install spec-up` to install `spec-up`.
+- Use Node.js 22.22.3 (recorded in `.nvmrc`) and npm 10.9.8 (recorded in
+  `package.json`). If you use nvm, run `nvm install` and `nvm use`.
+- Run `npm ci` from the root of the repository. This installs the committed
+  dependency versions, including `spec-up`.
 - Run `npm run edit` from the root of the repository to render the document with
   live updates to the `docs/index.html` as
   you edit the source files.
@@ -33,6 +34,24 @@ editing is:
 - When you are done, hit `Ctrl-c` to exit the live rendering.
 
 Please check your edits locally before you submit a pull request!
+
+### Dependency management
+
+This repository uses npm. Keep `package-lock.json` committed as its only JavaScript
+package-manager lockfile; do not run pnpm, Yarn, or Bun installs in this repository.
+
+- Use `npm ci` after cloning or pulling dependency changes. It replaces
+  `node_modules` and fails if `package.json` and the lockfile disagree.
+- Use `npm install <package>` or `npm uninstall <package>` when intentionally
+  changing dependencies, and commit both `package.json` and `package-lock.json`.
+- Never run project installs with `sudo`. If an install reports `EACCES`, inspect
+  directory ownership instead of retrying as root.
+- Avoid `npm audit fix --force` as routine cleanup; dependency upgrades need a
+  separate review and a successful specification render.
+
+For other repositories, follow their declared package manager and committed
+lockfile. A machine can have several package managers installed without using
+several in the same project.
 
 ### Handling the Rendered Specification File
 
